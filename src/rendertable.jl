@@ -51,6 +51,8 @@ msg0 = @htl(\"\"\"
 
 
 ```
+
+This function is inspired by the tutorial of https://github.com/JuliaPluto/HypertextLiteral.jl
 """
 function render_table(df; caption=" ")
     @htl("""
